@@ -1314,7 +1314,7 @@ export default function Home() {
               </a>
               <a href={LINKEDIN_LINK} target="_blank" rel="noopener noreferrer"
                 className="btn-outline flex items-center gap-3 rounded-2xl px-8 py-4 text-base">
-                <img src="/linkedin.png" alt="LinkedIn" className="h-5 w-5 object-contain" />
+                <img src="/linkedIn.png" alt="LinkedIn" className="h-5 w-5 object-contain" />
                 LinkedIn
               </a>
             </motion.div>
