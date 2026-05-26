@@ -139,173 +139,80 @@ const testimonials: Testimonial[] = [
 const setupPlans: PricingPlan[] = [
   {
     tier: "01",
-    badge: "Starter",
-    title: "Essential Tracking",
-    price: "$297",
-    sub: "One-time · 2–3 business days",
-    ideal: "Small businesses & solo marketers",
-    desc: "Core tracking fundamentals set up cleanly and correctly — no bloat, no guesswork.",
+    badge: "MOST POPULAR",
+    title: "Tracking Recovery Sprint",
+    price: "Free Audit",
+    sub: "Fix your core tracking in 7 days",
+    ideal: "Businesses losing leads, conversions, or ad data right now",
+    desc: "Stop guessing what is broken. I’ll audit your current setup, identify the tracking gaps, and fix the core events your campaigns depend on.",
     features: [
-      "GA4 property setup & event configuration",
-      "Google Ads conversion tracking",
-      "GTM container setup & tag management",
-      "Lead form & thank-you page tracking",
-      "Basic Consent Mode v2",
-      "DebugView QA & validation",
-      "7 days post-launch support",
-    ],
-    cta: "Get Started",
-    featured: false,
-    category: "setup",
-  },
-  {
-    tier: "02",
-    badge: "Professional",
-    title: "Lead Generation Tracking",
-    price: "$450",
-    sub: "One-time · 4–5 business days",
-    ideal: "Service businesses & B2B companies",
-    desc: "Track every lead touchpoint — forms, calls, bookings — with attribution clarity across your funnel.",
-    features: [
-      "Complete lead tracking infrastructure",
-      "GA4 & Google Ads integration",
-      "Form submission & booking tracking",
-      "Phone call tracking setup",
-      "Multi-step form conversion tracking",
-      "Thank-you page & confirmation tracking",
-      "Basic Consent Mode v2",
-      "Full QA & validation",
-      "10 days post-launch support",
+      "Complete tracking audit and gap analysis",
+      "GA4 and GTM setup review",
+      "Core conversion tracking setup or repair",
+      "Google Ads and Meta Pixel integration check",
+      "Form, button, booking, and thank-you page tracking",
+      "7-day implementation and validation",
+      "Clear documentation of what was fixed",
     ],
     addons: [
-      "+ $300 Server-side tracking",
-      "+ $300 Meta Pixel & CAPI",
-      "+ $300 Consent management platform",
-    ],
-    cta: "Book Free Audit",
-    featured: false,
-    category: "setup",
-  },
-  {
-    tier: "03",
-    badge: "Advanced",
-    title: "eCommerce Tracking",
-    price: "$750",
-    sub: "One-time · 6–8 business days",
-    ideal: "Online stores & product-based brands",
-    desc: "Full purchase funnel measurement — product views to checkout to revenue — with precise attribution.",
-    features: [
-      "Complete eCommerce event tracking",
-      "GA4 Enhanced Ecommerce setup",
-      "Google Ads & Meta Pixel integration",
-      "Product view, add-to-cart, checkout tracking",
-      "Purchase & revenue attribution",
-      "Cart abandonment tracking",
-      "Dynamic remarketing setup",
-      "Full QA & validation",
-      "14 days post-launch support",
-    ],
-    addons: [
-      "+ $400 Server-side tracking",
-      "+ $400 Meta CAPI with deduplication",
-      "+ $300 Additional ad platform",
+      "Limited audit slots available each month",
+      "Built for businesses that need tracking fixed fast, not someday",
     ],
     cta: "Book Free Audit",
     featured: true,
     category: "setup",
   },
   {
-    tier: "04",
-    badge: "Premium Add-on",
-    title: "Offline Conversion Tracking",
-    price: "Free*",
-    sub: "Included with any setup plan",
-    ideal: "Businesses with offline sales cycles",
-    desc: "Connect backend conversions — CRM deals, calls answered, in-store sales — back to your ad campaigns.",
+    tier: "02",
+    badge: "FOR GROWTH-FOCUSED BRANDS",
+    title: "Full-Funnel Tracking System",
+    price: "Custom Scope",
+    sub: "See every step before the conversion",
+    ideal: "Brands that need more visibility before scaling ad spend",
+    desc: "Built for brands and businesses that need more than basic conversion tracking. You’ll understand which actions users take before they become leads or customers.",
     features: [
-      "Google Ads offline conversion import",
-      "CRM-to-Google Ads pipeline setup",
-      "GCLID capture & storage architecture",
-      "Conversion value & timing mapping",
-      "Automated via Zapier or GTM",
-      "No paid CRM required",
-      "Call tracking integration (CallRail, etc.)",
-      "Complete documentation",
-      "Ongoing import validation",
+      "Everything in Tracking Recovery Sprint",
+      "GA4 enhanced event tracking",
+      "Lead funnel or eCommerce journey tracking",
+      "Product view, cart, checkout, and purchase tracking",
+      "Revenue and conversion value tracking",
+      "Meta Pixel and Google Ads conversion alignment",
+      "Remarketing audience setup",
+      "14-day implementation and QA",
     ],
-    cta: "Schedule a Call",
+    addons: [
+      "Most brands don’t have a traffic problem first",
+      "They have a visibility problem",
+    ],
+    cta: "See What You’re Missing",
     featured: false,
     category: "setup",
-    disclaimer:
-      "*Setup included free with Professional or Advanced plans. Standalone setup available at $350.",
-  },
-];
-
-const managementPlans: PricingPlan[] = [
-  {
-    tier: "01",
-    badge: "Basic",
-    title: "Tracking Maintenance",
-    price: "$150",
-    sub: "Per month, per website",
-    ideal: "Brands spending $3k–8k/mo on ads",
-    desc: "Reliable monthly monitoring to keep your tracking healthy and your data flowing correctly.",
-    features: [
-      "Up to 2 tracking fixes per month",
-      "Monthly tracking health audit",
-      "Always up-to-date with platform changes",
-      "24/7 monitoring for data loss prevention",
-      "Standard support (48hr response)",
-      "Fixes delivered within 48 hours",
-      "Monthly performance report",
-    ],
-    cta: "Get Started",
-    featured: false,
-    category: "management",
-  },
-  {
-    tier: "02",
-    badge: "Premium",
-    title: "Growth Support",
-    price: "$300",
-    sub: "Per month, per website",
-    ideal: "Brands spending $8k–25k/mo on ads",
-    desc: "Priority support with faster turnaround for brands scaling their paid acquisition.",
-    features: [
-      "Up to 5 tracking fixes per month",
-      "Bi-weekly tracking health audits",
-      "New page & funnel additions",
-      "Platform & API update management",
-      "Priority support (24hr response)",
-      "Fixes delivered within 24–48 hours",
-      "Detailed monthly insights report",
-      "Quarterly strategy consultation",
-    ],
-    cta: "Book Free Audit",
-    featured: true,
-    category: "management",
   },
   {
     tier: "03",
-    badge: "Pro",
-    title: "Enterprise Support",
-    price: "$450",
-    sub: "Per month, per website",
-    ideal: "Brands spending $25k+/mo on ads",
-    desc: "White-glove tracking support for high-spending brands with complex attribution needs.",
+    badge: "ADVANCED ATTRIBUTION",
+    title: "Advanced Attribution Stack",
+    price: "Custom Scope",
+    sub: "Connect ads to real revenue",
+    ideal: "Offline sales, CRM deals, phone calls, and complex funnels",
+    desc: "For businesses where the real conversion happens after the form fill. I’ll help connect leads, calls, CRM stages, and closed deals back to the campaigns that created them.",
     features: [
-      "Unlimited tracking requests & fixes",
-      "Always updated with platform changes",
-      "New funnel & campaign tracking setup",
-      "24/7 monitoring & instant alerts",
-      "Priority support (within 24 hours)",
-      "Dedicated Slack channel access",
-      "Weekly performance insights",
-      "On-demand strategic consultation",
+      "Everything in Full-Funnel Tracking System",
+      "Server-side tracking architecture",
+      "Meta CAPI and event deduplication",
+      "Enhanced Conversions for Google Ads",
+      "GCLID, FBCLID, and UTM capture strategy",
+      "CRM or backend conversion mapping",
+      "Offline conversion import planning",
+      "Full documentation and handover",
     ],
-    cta: "Schedule a Call",
+    addons: [
+      "Built for teams tired of guessing",
+      "Attribute real revenue after the lead is submitted",
+    ],
+    cta: "Schedule Deep Dive",
     featured: false,
-    category: "management",
+    category: "setup",
   },
 ];
 
@@ -370,9 +277,8 @@ const faqs = [
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [pricingTab, setPricingTab] = useState<"setup" | "management">("setup");
 
-  const currentPlans = pricingTab === "setup" ? setupPlans : managementPlans;
+  const currentPlans = setupPlans;
 
   return (
     <main
@@ -1564,203 +1470,227 @@ export default function Home() {
           >
             <div className="flex items-center gap-3 mb-4">
               <div className="gold-line" />
-              <span className="section-label">Pricing</span>
+              <span className="section-label">Tracking Diagnosis</span>
             </div>
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <h2
                 className="font-serif text-4xl font-bold leading-tight md:text-5xl"
                 style={{ color: "var(--cream)" }}
               >
-                Transparent pricing.<br />
-                <em style={{ color: "var(--gold)" }}>No surprises.</em>
+                Start with clarity.<br />
+                <em style={{ color: "var(--gold)" }}>Not blind pricing.</em>
               </h2>
               <p
                 className="max-w-sm text-base leading-7"
                 style={{ color: "var(--cream-dim)" }}
               >
-                Fixed prices. You'll know the exact number before work begins — no hourly billing,
-                no hidden costs.
+                Every business has a different tracking problem. I first review your setup,
+                show you what is broken, and then recommend the cleanest fix only if it makes sense.
               </p>
             </div>
           </motion.div>
 
           <motion.div
-            className="mb-12 flex items-center justify-center gap-3"
-            initial={{ opacity: 0, y: 10 }}
+            className="mb-10 rounded-3xl p-6 md:p-7"
+            style={{
+              background:
+                "linear-gradient(135deg, rgba(201,168,76,0.08) 0%, rgba(255,255,255,0.02) 45%, transparent 100%)",
+              border: "1px solid rgba(201,168,76,0.18)",
+            }}
+            initial={{ opacity: 0, y: 18 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <button
-              type="button"
-              onClick={() => setPricingTab("setup")}
-              className={`pricing-tab ${pricingTab === "setup" ? "active" : ""}`}
-            >
-              Tracking Setup
-            </button>
-            <button
-              type="button"
-              onClick={() => setPricingTab("management")}
-              className={`pricing-tab ${pricingTab === "management" ? "active" : ""}`}
-            >
-              Monthly Management
-            </button>
+            <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr] md:items-center">
+              <div>
+                <div className="section-label mb-3">Why the audit comes first</div>
+                <p className="text-base leading-8" style={{ color: "var(--cream-dim)" }}>
+                  Some websites are missing conversions. Some are duplicating events. Some are
+                  sending weak signals into Meta or bad data into Google Ads. The audit tells us
+                  which problem is actually costing you money.
+                </p>
+              </div>
+              <div
+                className="rounded-2xl p-5"
+                style={{
+                  background: "rgba(10,10,10,0.45)",
+                  border: "1px solid var(--border-strong)",
+                }}
+              >
+                <div className="font-serif text-xl font-bold mb-2" style={{ color: "var(--cream)" }}>
+                  No public prices.
+                </div>
+                <p className="text-sm leading-6" style={{ color: "var(--cream-dim)" }}>
+                  Because your tracking scope depends on your website, funnel, ad platforms,
+                  CRM, and what is already broken.
+                </p>
+              </div>
+            </div>
           </motion.div>
 
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={pricingTab}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              className={`grid gap-5 ${
-                pricingTab === "setup"
-                  ? "md:grid-cols-2 lg:grid-cols-4"
-                  : "md:grid-cols-3"
-              }`}
-            >
-              {currentPlans.map((plan, i) => (
-                <motion.div
-                  key={`${pricingTab}-${i}`}
-                  className={`price-card flex flex-col rounded-3xl p-8 ${
-                    plan.featured ? "featured" : ""
-                  }`}
-                  initial={{ opacity: 0, y: 24 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.08, duration: 0.5 }}
-                >
-                  <div className="flex items-start justify-between mb-6">
-                    <span className="num-accent">{plan.tier}</span>
-                    {plan.featured && (
-                      <motion.span
-                        initial={{ scale: 0 }}
-                        animate={{ scale: 1 }}
-                        transition={{ delay: 0.3, type: "spring", stiffness: 200 }}
-                        style={{
-                          background: "rgba(201,168,76,0.15)",
-                          color: "var(--gold)",
-                          border: "1px solid rgba(201,168,76,0.3)",
-                          fontSize: 11,
-                          fontFamily: "'DM Mono',monospace",
-                          letterSpacing: "0.1em",
-                          textTransform: "uppercase",
-                          padding: "3px 10px",
-                          borderRadius: 99,
-                        }}
-                      >
-                        Best Value
-                      </motion.span>
-                    )}
-                  </div>
-
-                  <span className="tag-pill mb-4 self-start">{plan.badge}</span>
-                  <h3
-                    className="font-serif text-2xl font-bold mb-2"
-                    style={{
-                      color: plan.featured ? "var(--gold-light)" : "var(--cream)",
-                    }}
-                  >
-                    {plan.title}
-                  </h3>
-
-                  <div
-                    className="font-mono text-4xl font-medium mb-1"
-                    style={{ color: plan.featured ? "var(--gold)" : "var(--cream)" }}
-                  >
-                    {plan.price}
-                  </div>
-                  <div className="text-xs mb-2 font-mono" style={{ color: "var(--cream-dim)" }}>
-                    {plan.sub}
-                  </div>
-
-                  <div
-                    className="text-xs mb-5 px-3 py-1.5 rounded-lg self-start"
-                    style={{
-                      background: "rgba(240,237,232,0.05)",
-                      color: "var(--cream-dim)",
-                      border: "1px solid var(--border)",
-                    }}
-                  >
-                    Ideal for: {plan.ideal}
-                  </div>
-
-                  <p
-                    className="text-sm leading-6 mb-7"
-                    style={{ color: "var(--cream-dim)" }}
-                  >
-                    {plan.desc}
-                  </p>
-
-                  <ul className="space-y-3 flex-1 mb-6">
-                    {plan.features.map((f, j) => (
-                      <motion.li
-                        key={j}
-                        className="flex items-start gap-3 text-sm"
-                        style={{ color: "var(--cream-dim)" }}
-                        initial={{ opacity: 0, x: -10 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.3 + j * 0.03, duration: 0.3 }}
-                      >
-                        <div className="check-icon">✓</div>
-                        {f}
-                      </motion.li>
-                    ))}
-                  </ul>
-
-                  {plan.addons && (
-                    <div className="mb-6 space-y-2">
-                      <div
-                        className="text-xs font-mono uppercase tracking-wider mb-3"
-                        style={{ color: "var(--gold)", opacity: 0.8 }}
-                      >
-                        Optional Add-ons:
-                      </div>
-                      {plan.addons.map((addon, k) => (
-                        <div key={k} className="addon-item">
-                          {addon}
-                        </div>
-                      ))}
-                    </div>
-                  )}
-
-                  {plan.disclaimer && (
-                    <div
-                      className="mb-6 text-xs leading-5 px-3 py-2 rounded-lg"
+          <motion.div
+            className="grid gap-5 md:grid-cols-3"
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.1 }}
+            variants={{
+              hidden: {},
+              show: { transition: { staggerChildren: 0.1 } },
+            }}
+          >
+            {currentPlans.map((plan, i) => (
+              <motion.div
+                key={`tracking-offer-${i}`}
+                className={`price-card flex flex-col rounded-3xl p-8 ${
+                  plan.featured ? "featured" : ""
+                }`}
+                variants={{
+                  hidden: { opacity: 0, y: 28 },
+                  show: {
+                    opacity: 1,
+                    y: 0,
+                    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+                  },
+                }}
+                whileHover={{ y: -6 }}
+              >
+                <div className="flex items-start justify-between mb-6">
+                  <span className="num-accent">{plan.tier}</span>
+                  {plan.featured && (
+                    <motion.span
+                      initial={{ scale: 0 }}
+                      whileInView={{ scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: 0.25, type: "spring", stiffness: 200 }}
                       style={{
-                        background: "rgba(201,168,76,0.05)",
-                        color: "var(--cream-dim)",
-                        border: "1px solid rgba(201,168,76,0.15)",
+                        background: "rgba(201,168,76,0.15)",
+                        color: "var(--gold)",
+                        border: "1px solid rgba(201,168,76,0.3)",
+                        fontSize: 11,
+                        fontFamily: "'DM Mono',monospace",
+                        letterSpacing: "0.1em",
+                        textTransform: "uppercase",
+                        padding: "3px 10px",
+                        borderRadius: 99,
                       }}
                     >
-                      {plan.disclaimer}
-                    </div>
+                      Start Here
+                    </motion.span>
                   )}
+                </div>
 
-                  <a
-                    href={BOOKING_LINK}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`block w-full rounded-2xl py-4 text-center text-sm font-bold transition ${
-                      plan.featured ? "btn-gold" : "btn-outline"
-                    }`}
-                  >
-                    {plan.cta} →
-                  </a>
-                </motion.div>
-              ))}
-            </motion.div>
-          </AnimatePresence>
+                <span className="tag-pill mb-5 self-start">{plan.badge}</span>
+
+                <h3
+                  className="font-serif text-2xl font-bold mb-3"
+                  style={{
+                    color: plan.featured ? "var(--gold-light)" : "var(--cream)",
+                  }}
+                >
+                  {plan.title}
+                </h3>
+
+                <div
+                  className="font-serif text-3xl font-bold leading-tight mb-3"
+                  style={{ color: plan.featured ? "var(--gold)" : "var(--cream)" }}
+                >
+                  {plan.sub}
+                </div>
+
+                <div
+                  className="mb-5 inline-flex self-start rounded-full px-3 py-1.5 text-xs font-mono"
+                  style={{
+                    background: "rgba(201,168,76,0.07)",
+                    color: "var(--gold)",
+                    border: "1px solid rgba(201,168,76,0.18)",
+                  }}
+                >
+                  {plan.price}
+                </div>
+
+                <div
+                  className="text-xs mb-5 px-3 py-1.5 rounded-lg self-start"
+                  style={{
+                    background: "rgba(240,237,232,0.05)",
+                    color: "var(--cream-dim)",
+                    border: "1px solid var(--border)",
+                  }}
+                >
+                  Best for: {plan.ideal}
+                </div>
+
+                <p
+                  className="text-sm leading-6 mb-7"
+                  style={{ color: "var(--cream-dim)" }}
+                >
+                  {plan.desc}
+                </p>
+
+                <div
+                  className="mb-4 text-xs font-mono uppercase tracking-wider"
+                  style={{ color: "var(--gold)", opacity: 0.85 }}
+                >
+                  What’s included:
+                </div>
+
+                <ul className="space-y-3 flex-1 mb-6">
+                  {plan.features.map((f, j) => (
+                    <motion.li
+                      key={j}
+                      className="flex items-start gap-3 text-sm"
+                      style={{ color: "var(--cream-dim)" }}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: 0.2 + j * 0.03, duration: 0.3 }}
+                    >
+                      <div className="check-icon">✓</div>
+                      {f}
+                    </motion.li>
+                  ))}
+                </ul>
+
+                {plan.addons && (
+                  <div className="mb-6 space-y-2">
+                    <div
+                      className="text-xs font-mono uppercase tracking-wider mb-3"
+                      style={{ color: "var(--gold)", opacity: 0.8 }}
+                    >
+                      Why it matters:
+                    </div>
+                    {plan.addons.map((addon, k) => (
+                      <div key={k} className="addon-item">
+                        {addon}
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                <a
+                  href={BOOKING_LINK}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`block w-full rounded-2xl py-4 text-center text-sm font-bold transition ${
+                    plan.featured ? "btn-gold" : "btn-outline"
+                  }`}
+                >
+                  {plan.cta} →
+                </a>
+              </motion.div>
+            ))}
+          </motion.div>
 
           <motion.p
             className="mt-8 text-center text-sm"
-            style={{ color: "var(--cream-dim)", opacity: 0.6 }}
+            style={{ color: "var(--cream-dim)", opacity: 0.75 }}
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 0.6 }}
+            whileInView={{ opacity: 0.75 }}
             viewport={{ once: true }}
             transition={{ delay: 0.5, duration: 0.6 }}
           >
-            Enterprise, multi-domain, or custom eCommerce setups quoted individually.{" "}
+            Not sure what you need? That’s exactly why the audit comes first. I’ll show you the
+            tracking gaps before recommending any paid work.{" "}
             <a
               href={BOOKING_LINK}
               target="_blank"
@@ -1771,7 +1701,7 @@ export default function Home() {
                 textUnderlineOffset: 3,
               }}
             >
-              Start with a free audit.
+              Book the free audit.
             </a>
           </motion.p>
         </div>
